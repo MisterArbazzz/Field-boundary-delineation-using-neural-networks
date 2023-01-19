@@ -1,0 +1,152 @@
+ 
+Training Config
+-------------------------------------
+NETWORK
+  Uuid:               0c60845c-f8fd-11ec-9c0e-0242ac1c0002
+  Name:               unet2
+  Optimizer:          Adam
+
+
+PARAMETERS
+  Bands:              4
+  Classes:            2
+  Epochs:             800
+  Batch Size:         8
+
+OPTIMIZER (Adam)
+  Learning Rate:    0.0015
+  Beta1:            0.9
+  Beta2:            0.999
+  Epsilon:          1e-06
+  
+EXECUTION SUMMARY
+  Patches:          433
+  Validation Split: 0.05
+  Resolution:       400x400
+  Bands:            4
+  Classes:          1
+  
+Training Set:
+     (overijssel, 5)
+    (zeeland, 63)
+    (overijssel, 16)
+    (zeeland, 21)
+    (friesland, 134)
+    (overijssel, 58)
+    (zeeland, 77)
+    (friesland, 149)
+    (zeeland, 49)
+    (friesland, 175)
+    (overijssel, 6)
+    (flevoland, 80)
+    (overijssel, 21)
+    (zeeland, 47)
+    (overijssel, 32)
+    (zeeland, 5)
+    (friesland, 150)
+    (overijssel, 74)
+    (friesland, 165)
+    (friesland, 176)
+    (zeeland, 33)
+    (overijssel, 84)
+    (zuid-holland, 100)
+    (flevoland, 95)
+    (flevoland, 64)
+    (zeeland, 31)
+    (zeeland, 10)
+    (friesland, 166)
+    (flevoland, 107)
+    (overijssel, 1)
+    (gelderland, 37)
+    (limburg, 82)
+    (overijssel, 43)
+    (flevoland, 79)
+    (flevoland, 50)
+    (flevoland, 22)
+    (overijssel, 2)
+    (overijssel, 17)
+    (overijssel, 44)
+    (zeeland, 22)
+    (overijssel, 59)
+    (flevoland, 34)
+    (limburg, 165)
+    (friesland, 161)
+    (zeeland, 50)
+    (flevoland, 21)
+    (overijssel, 7)
+    (overijssel, 18)
+    (overijssel, 33)
+    (zeeland, 64)
+    (zuid-holland, 114)
+    (friesland, 136)
+    (zeeland, 6)
+    (friesland, 151)
+    (friesland, 162)
+    (overijssel, 70)
+    (friesland, 177)
+    (zeeland, 34)
+    (flevoland, 94)
+    (zeeland, 24)
+    (overijssel, 34)
+    (gelderland, 29)
+    (friesland, 152)
+    (friesland, 123)
+    (overijssel, 14)
+    (friesland, 178)
+    (overijssel, 29)
+    (flevoland, 93)
+    (zeeland, 18)
+    (zeeland, 8)
+    (overijssel, 3)
+    (zeeland, 36)
+    (overijssel, 45)
+    (zeeland, 23)
+    (overijssel, 56)
+    (flevoland, 37)
+    (zeeland, 51)
+    (flevoland, 20)
+    (overijssel, 4)
+    (zeeland, 20)
+    (overijssel, 46)
+    (friesland, 137)
+    (zeeland, 7)
+    (friesland, 148)
+    (friesland, 163)
+    (zeeland, 48)
+    (overijssel, 71)
+    (zeeland, 35)
+    (overijssel, 20)
+    (overijssel, 35)
+    (friesland, 138)
+    (zeeland, 4)
+    (gelderland, 30)
+    (friesland, 164)
+    (friesland, 179)
+    (zeeland, 32)
+    (zuid-holland, 101)
+    (zeeland, 19)
+    (overijssel, 98)
+    (flevoland, 65)
+    (zeeland, 9)
+    (friesland, 180)
+    (zeeland, 37)
+    (friesland, 195)
+    (limburg, 96)
+    (overijssel, 57)
+    (flevoland, 51)
+    (zeeland, 3)
+    (flevoland, 36)
+Test set:
+         (overijssel, 31)
+    (overijssel, 30)
+    (flevoland, 52)
+    (zeeland, 62)
+    (limburg, 166)
+    (flevoland, 108)
+    (overijssel, 19)
+    (friesland, 135)
+    (overijssel, 15)
+    (flevoland, 66)
+    (zeeland, 76)
+    (overijssel, 60)
+    (limburg, 110)
