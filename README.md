@@ -25,7 +25,9 @@ Prediction on Unseen Data: Contains the prediction on Data from unseen data i.e 
 # Project Flow:
  1.	Choosing Data and Study Area:
 The study area is chosen the Netherlands. I chose Netherlands due to the availability of ground truth data for Netherlands fields. In the figure below, the distribution of fields is shown on the map of the Netherlands:
- ![image](https://user-images.githubusercontent.com/87564754/213633900-fc4db49f-29b4-483a-a28e-9f465ebca837.png)
+
+
+![image](https://user-images.githubusercontent.com/87564754/213633900-fc4db49f-29b4-483a-a28e-9f465ebca837.png)
 
 
 2.	Data Preprocessing:
@@ -45,13 +47,17 @@ c.	Choosing the Hyperparameters for the same
 6.	Making Predictions
 
 7.	Postprocessing: Converting the GeoTiff files into polygon files
+
 ![image](https://user-images.githubusercontent.com/87564754/213633866-adf41d47-0e0a-41bb-bd36-03b2db04fb9b.png)
 
 
 # Deployment:
 I deployed the project using a template provided by StreamLit. Where I incorporated the field boundaries for nagpur with the point data of crops and joined the polygons and crop data through a common ID. The map was used from mapbox. The result was as follows:
+
 ![image](https://user-images.githubusercontent.com/87564754/213633025-8920f209-b0f1-4744-a918-cfdd55e121c1.png)
+ 
  
 The crops are represented through different colors and the gray fields represent unavailable crop data.
 If hovered over a single crop, it displays the crop data for the same.
+
 ![image](https://user-images.githubusercontent.com/87564754/213633779-4af3c8c3-d845-43b8-8911-f7108483baf9.png)
